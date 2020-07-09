@@ -10,7 +10,7 @@ int main()
     AVFormatContext *pFormatCtx = NULL;
     AVDictionary *options = NULL;
     AVPacket *av_packet = NULL;
-    char filepath[] = "rtsp:";// rtsp 地址
+    char filepath[] = "rtsp://admin:Buzhongyao123@192.168.200.228:554/h264/ch39/sub/av_stream";// rtsp 地址
 
     av_register_all();  //函数在ffmpeg4.0以上版本已经被废弃，所以4.0以下版本就需要注册初始函数
     avformat_network_init();
@@ -87,7 +87,7 @@ int main()
     mpp_log("mpi_dec_test start\n");
     memset(&data, 0, sizeof(data));
 
-    data.fp_output = fopen("/home/firefly/zlatan/tenoutput.yuv", "w+b");
+    data.fp_output = fopen("./tenoutput.yuv", "w+b");
     if (NULL == data.fp_output) {
         mpp_err("failed to open output file %s\n", "tenoutput.yuv");
         goto MPP_TEST_OUT;
@@ -129,8 +129,8 @@ int main()
     data.ctx            = ctx;
     data.mpi            = mpi;
     data.eos            = 0;
-    data.buf            = buf;
-    data.packet         = packet;
+    // data.buf            = buf;
+    // data.packet         = packet;
     data.packet_size    = packet_size;
     data.frame          = frame;
     data.frame_count    = 0;
@@ -144,7 +144,7 @@ int main()
         {
             if (av_packet->stream_index == videoindex)
             {
-//                mpp_log("--------------\ndata size is: %d\n-------------", av_packet->size);
+               mpp_log("--------------\ndata size is: %d\n-------------", av_packet->size);
                 decode_simple(&data, av_packet);
             }
             if (av_packet != NULL)
