@@ -1,9 +1,63 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*Include ffmpeg header file*/
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <libavformat/avformat.h>
+
+#ifdef __cplusplus
+};
+#endif
+
 #include "MppDecode.h"
 
+
+void deInit(MppPacket *packet, MppFrame *frame, MppCtx ctx, char *buf, MpiDecLoopData data )
+{
+    if (packet) {
+        mpp_packet_deinit(packet);
+        packet = NULL;
+    }
+
+    if (frame) {
+        mpp_frame_deinit(frame);
+        frame = NULL;
+    }
+
+    if (ctx) {
+        mpp_destroy(ctx);
+        ctx = NULL;
+    }
+
+
+    if (buf) {
+        mpp_free(buf);
+        buf = NULL;
+    }
+
+
+    if (data.pkt_grp) {
+        mpp_buffer_group_put(data.pkt_grp);
+        data.pkt_grp = NULL;
+    }
+
+    if (data.frm_grp) {
+        mpp_buffer_group_put(data.frm_grp);
+        data.frm_grp = NULL;
+    }
+
+    if (data.fp_output) {
+        fclose(data.fp_output);
+        data.fp_output = NULL;
+    }
+
+    if (data.fp_input) {
+        fclose(data.fp_input);
+        data.fp_input = NULL;
+    }
+}
 
 int main()
 {
@@ -90,7 +144,7 @@ int main()
     data.fp_output = fopen("./tenoutput.yuv", "w+b");
     if (NULL == data.fp_output) {
         mpp_err("failed to open output file %s\n", "tenoutput.yuv");
-        goto MPP_TEST_OUT;
+        deInit(&packet, &frame, ctx, buf, data);
     }
 
     mpp_log("mpi_dec_test decoder test start w %d h %d type %d\n", width, height, type);
@@ -100,7 +154,7 @@ int main()
 
     if (MPP_OK != ret) {
         mpp_err("mpp_create failed\n");
-        goto MPP_TEST_OUT;
+        deInit(&packet, &frame, ctx, buf, data);
     }
 
     // NOTE: decoder split mode need to be set before init
@@ -109,7 +163,7 @@ int main()
     ret = mpi->control(ctx, mpi_cmd, param);
     if (MPP_OK != ret) {
         mpp_err("mpi->control failed\n");
-        goto MPP_TEST_OUT;
+        deInit(&packet, &frame, ctx, buf, data);
     }
 
     mpi_cmd = MPP_SET_INPUT_BLOCK;
@@ -117,20 +171,18 @@ int main()
     ret = mpi->control(ctx, mpi_cmd, param);
     if (MPP_OK != ret) {
         mpp_err("mpi->control failed\n");
-        goto MPP_TEST_OUT;
+        deInit(&packet, &frame, ctx, buf, data);
     }
 
     ret = mpp_init(ctx, MPP_CTX_DEC, type);
     if (MPP_OK != ret) {
         mpp_err("mpp_init failed\n");
-        goto MPP_TEST_OUT;
+        deInit(&packet, &frame, ctx, buf, data);
     }
 
     data.ctx            = ctx;
     data.mpi            = mpi;
     data.eos            = 0;
-    // data.buf            = buf;
-    // data.packet         = packet;
     data.packet_size    = packet_size;
     data.frame          = frame;
     data.frame_count    = 0;
@@ -151,50 +203,7 @@ int main()
                 av_packet_unref(av_packet);
             mpp_log("%d", i);
         }
-    }
-
-    MPP_TEST_OUT:
-    if (packet) {
-        mpp_packet_deinit(&packet);
-        packet = NULL;
-    }
-
-    if (frame) {
-        mpp_frame_deinit(&frame);
-        frame = NULL;
-    }
-
-    if (ctx) {
-        mpp_destroy(ctx);
-        ctx = NULL;
-    }
-
-
-    if (buf) {
-        mpp_free(buf);
-        buf = NULL;
-    }
-
-
-    if (data.pkt_grp) {
-        mpp_buffer_group_put(data.pkt_grp);
-        data.pkt_grp = NULL;
-    }
-
-    if (data.frm_grp) {
-        mpp_buffer_group_put(data.frm_grp);
-        data.frm_grp = NULL;
-    }
-
-    if (data.fp_output) {
-        fclose(data.fp_output);
-        data.fp_output = NULL;
-    }
-
-    if (data.fp_input) {
-        fclose(data.fp_input);
-        data.fp_input = NULL;
-    }
+    }    
 
 
 //    fclose(fpSave);

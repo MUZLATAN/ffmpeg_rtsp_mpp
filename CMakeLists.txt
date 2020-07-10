@@ -20,7 +20,8 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-O0 -g")
 
 include_directories(
-    /usr/include/aarch64-linux-gnu
+	/usr/include/aarch64-linux-gnu
+	/env/platforms/aarch64/include
 	${CMAKE_CURRENT_LIST_DIR}/ffm_inc
 	${CMAKE_CURRENT_LIST_DIR}/rockchip
 )
@@ -35,13 +36,17 @@ link_directories(
 )
 
 
-add_executable(mpp_test MppDecode.c MppDecode.h main.c)
+add_executable(mpp_test MppDecode.cpp MppDecode.h main.cpp)
 
 target_link_libraries(mpp_test
         rockchip_mpp
         utils
         avformat
         avcodec
-        avutil
+		avutil
+		opencv_core
+		opencv_highgui
+		opencv_imgproc
+		opencv_imgcodecs
 		m
 )

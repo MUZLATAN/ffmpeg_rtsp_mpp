@@ -22,6 +22,12 @@
 #include "mpp_frame_impl.h"
 #include <libavformat/avformat.h>
 
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgcodecs/imgcodecs.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
+
+
 #define MPI_DEC_STREAM_SIZE         (SZ_4K)
 #define MPI_DEC_LOOP_COUNT          4
 #define MAX_FILE_NAME_LENGTH        256
@@ -73,6 +79,6 @@ size_t mpp_buffer_group_usage(MppBufferGroup group);
 
 int decode_simple(MpiDecLoopData *data, AVPacket* av_packet);
 
-
+void YUV420SP2Mat(MppFrame  frames, cv::Mat rgbImg );
 
 #endif //LIVERTSPCLIENT_MPPDECODE_H
