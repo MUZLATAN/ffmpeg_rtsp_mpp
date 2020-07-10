@@ -1,0 +1,549 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 4.15.0-106-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19de0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19de0.dir/build.make CMakeFiles/cmTC_19de0.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19de0.dir/testCCompiler.c.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc     -o CMakeFiles/cmTC_19de0.dir/testCCompiler.c.o   -c /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_19de0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19de0.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_19de0.dir/testCCompiler.c.o  -o cmTC_19de0 
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51740/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51740.dir/build.make CMakeFiles/cmTC_51740.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc     -o CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_51740
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51740.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc      -v CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o  -o cmTC_51740  
+Using built-in specs.
+COLLECT_GCC=/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.4-2017.01/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-objc-gc --enable-shared --without-included-gettext --enable-nls --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu
+Thread model: posix
+gcc version 5.4.1 20161213 (Linaro GCC 5.4-2017.01) 
+COMPILER_PATH=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51740' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/collect2 -plugin /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/liblto_plugin.so -plugin-opt=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDEpojm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_51740 /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtbegin.o -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1 -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtend.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_51740/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_51740.dir/build.make CMakeFiles/cmTC_51740.dir/build]
+  ignore line: [make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc     -o CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_51740]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51740.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc      -v CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o  -o cmTC_51740  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.4-2017.01/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-objc-gc --enable-shared --without-included-gettext --enable-nls --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.1 20161213 (Linaro GCC 5.4-2017.01) ]
+  ignore line: [COMPILER_PATH=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51740' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/collect2 -plugin /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/liblto_plugin.so -plugin-opt=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDEpojm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_51740 /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtbegin.o -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1 -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtend.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o]
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDEpojm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_51740] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtbegin.o] ==> ignore
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib]
+    arg [CMakeFiles/cmTC_51740.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtend.o] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.4.1]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.4.1;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93239/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93239.dir/build.make CMakeFiles/cmTC_93239.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93239.dir/feature_tests.c.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc    -std=c11 -o CMakeFiles/cmTC_93239.dir/feature_tests.c.o   -c /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_93239
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93239.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_93239.dir/feature_tests.c.o  -o cmTC_93239 
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_151fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_151fc.dir/build.make CMakeFiles/cmTC_151fc.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_151fc.dir/feature_tests.c.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc    -std=c99 -o CMakeFiles/cmTC_151fc.dir/feature_tests.c.o   -c /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_151fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_151fc.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_151fc.dir/feature_tests.c.o  -o cmTC_151fc 
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2113f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2113f.dir/build.make CMakeFiles/cmTC_2113f.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2113f.dir/feature_tests.c.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc    -std=c90 -o CMakeFiles/cmTC_2113f.dir/feature_tests.c.o   -c /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2113f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2113f.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_2113f.dir/feature_tests.c.o  -o cmTC_2113f 
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_326fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_326fc.dir/build.make CMakeFiles/cmTC_326fc.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_326fc.dir/testCXXCompiler.cxx.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++      -o CMakeFiles/cmTC_326fc.dir/testCXXCompiler.cxx.o -c /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_326fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_326fc.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++        CMakeFiles/cmTC_326fc.dir/testCXXCompiler.cxx.o  -o cmTC_326fc 
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_340e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_340e2.dir/build.make CMakeFiles/cmTC_340e2.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++      -o CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_340e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_340e2.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++       -v CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_340e2  
+Using built-in specs.
+COLLECT_GCC=/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++
+COLLECT_LTO_WRAPPER=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.4-2017.01/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-objc-gc --enable-shared --without-included-gettext --enable-nls --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu
+Thread model: posix
+gcc version 5.4.1 20161213 (Linaro GCC 5.4-2017.01) 
+COMPILER_PATH=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_340e2' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/collect2 -plugin /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/liblto_plugin.so -plugin-opt=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNggXnN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_340e2 /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtbegin.o -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1 -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtend.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_340e2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_340e2.dir/build.make CMakeFiles/cmTC_340e2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++      -o CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_340e2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_340e2.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++       -v CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_340e2  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.4-2017.01/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-objc-gc --enable-shared --without-included-gettext --enable-nls --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.1 20161213 (Linaro GCC 5.4-2017.01) ]
+  ignore line: [COMPILER_PATH=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib/:/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_340e2' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/collect2 -plugin /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/liblto_plugin.so -plugin-opt=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNggXnN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_340e2 /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtbegin.o -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1 -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib -L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtend.o /usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o]
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNggXnN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_340e2] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtbegin.o] ==> ignore
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib]
+    arg [-L/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib] ==> dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib]
+    arg [CMakeFiles/cmTC_340e2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/crtend.o] ==> ignore
+    arg [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.4.1]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.4.1/../../../../aarch64-linux-gnu/lib] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib]
+  collapse library dir [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib] ==> [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.4.1;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/lib/gcc;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib;/usr/local/cross-compile/gcc-linaro-5.4.1-2017.01-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee4c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee4c7.dir/build.make CMakeFiles/cmTC_ee4c7.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ee4c7.dir/feature_tests.cxx.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++     -std=c++14 -o CMakeFiles/cmTC_ee4c7.dir/feature_tests.cxx.o -c /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ee4c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee4c7.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++        CMakeFiles/cmTC_ee4c7.dir/feature_tests.cxx.o  -o cmTC_ee4c7 
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c587f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c587f.dir/build.make CMakeFiles/cmTC_c587f.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c587f.dir/feature_tests.cxx.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++     -std=c++11 -o CMakeFiles/cmTC_c587f.dir/feature_tests.cxx.o -c /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c587f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c587f.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++        CMakeFiles/cmTC_c587f.dir/feature_tests.cxx.o  -o cmTC_c587f 
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9b64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9b64.dir/build.make CMakeFiles/cmTC_b9b64.dir/build
+make[1]: Entering directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9b64.dir/feature_tests.cxx.o
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++     -std=c++98 -o CMakeFiles/cmTC_b9b64.dir/feature_tests.cxx.o -c /home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b9b64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9b64.dir/link.txt --verbose=1
+/usr/local/cross-compile/aarch64-cc//bin/aarch64-linux-gnu-g++        CMakeFiles/cmTC_b9b64.dir/feature_tests.cxx.o  -o cmTC_b9b64 
+make[1]: Leaving directory '/home/z/Desktop/mppdecode/ffmpeg_rtsp_mpp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
