@@ -79,6 +79,6 @@ size_t mpp_buffer_group_usage(MppBufferGroup group);
 
 int decode_simple(MpiDecLoopData *data, AVPacket* av_packet);
 
-void YUV420SP2Mat(MppFrame  frames, cv::Mat rgbImg );
+void YUV420SP2Mat(MppFrame  frames, cv::Mat & rgbImg );
 
 #endif //LIVERTSPCLIENT_MPPDECODE_H

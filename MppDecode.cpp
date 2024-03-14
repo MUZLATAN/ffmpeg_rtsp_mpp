@@ -211,7 +211,7 @@ int decode_simple(MpiDecLoopData *data, AVPacket *av_packet )
     return ret;
 }
 
-void YUV420SP2Mat(MppFrame  frame, cv::Mat rgbImg ) {
+void YUV420SP2Mat(MppFrame  frame, cv::Mat & rgbImg ) {
 	RK_U32 width = 0;
 	RK_U32 height = 0;
 	RK_U32 h_stride = 0;
